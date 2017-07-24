@@ -1,0 +1,58 @@
+#main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+/* Presets for */
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#bar{
+    opacity: .5;
+}
+
+#nav-mobile{
+    opacity: .9;
+}
+
+
+/* social links on the intro block */
+#intro-social {
+    color: white;
+    font-size: 3em;
+}
+
+/*Title heading*/
+#title-name, #projects, #contact {
+    font-family: 'Amatic SC', cursive;
+    font-size: 6em;
+}
+
+#projects, #contact {
+    margin-top: 15vh;
+}
+
+#title-container{
+    margin-top: 35vh;
+    margin-bottom: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}

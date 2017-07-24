@@ -4,7 +4,15 @@
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "express": "^4.15.3",
+    "mdi": "^1.9.33",
+    "body-parser": "^1.17.2",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dreballo/professional-portfolio.git"
   },
   "devDependencies": {
     "react-scripts": "1.0.10"
