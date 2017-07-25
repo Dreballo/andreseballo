@@ -11,7 +11,7 @@ var Contact = React.createClass({
                     <div className="row">
                         <div className="col s12 center">
                             <a href="mailto:andre.m.seballo@gmail.com" className="btn-large waves-effect waves-light" type="submit" name="action">Email
-                                <i className="material-icons right">send</i>
+                                <i className="mdi mdi-send right"> </i>
                             </a>
                         </div>
                     </div>

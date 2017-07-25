@@ -15,11 +15,11 @@ var Projects = React.createClass({
                                     <img className="activator" src="../assets/images/yolo.png"/>
                                 </div>
                                 <div className="card-content">
-                                    <span className="card-title activator grey-text text-darken-4">YOLO<i className="material-icons right">more_vert</i></span>
+                                    <span className="card-title activator grey-text text-darken-4">YOLO<i className="mdi mdi-dots-vertical right"> </i></span>
                                     <p><a href="http://yolo-orlando.herokuapp.com/" target="#">Check out the live demo</a></p>
                                 </div>
                                 <div className="card-reveal">
-                                    <span className="card-title grey-text text-darken-4">YOLO<i className="material-icons right">close</i></span>
+                                    <span className="card-title grey-text text-darken-4">YOLO<i className="mdi mdi-close right"> </i></span>
                                     <p><strong>Role:</strong> Backend Development (team)</p>
                                     <p><strong>Description:</strong> Utilizing the Open Weather & IPinfo.io APIs. This powerful app finds your location, checks your local weather, and returns a suggested event based on that local weather data.</p>
                                     <p><a target="#" href="https://github.com/adeerjustoutside/YOLO">Check out the repo</a></p>
@@ -40,11 +40,11 @@ var Projects = React.createClass({
                                     <img className="activator" src="../assets/images/burger.png"/>
                                 </div>
                                 <div className="card-content">
-                                    <span className="card-title activator grey-text text-darken-4">Eat-Da-Burger<i className="material-icons right">more_vert</i></span>
+                                    <span className="card-title activator grey-text text-darken-4">Eat-Da-Burger<i className="mdi mdi-dots-vertical right"> </i></span>
                                     <p><a href="https://server-burger.herokuapp.com/burgers" target="#">Check out the live demo</a></p>
                                 </div>
                                 <div className="card-reveal">
-                                    <span className="card-title grey-text text-darken-4">Eat-Da-Burger<i className="material-icons right">close</i></span>
+                                    <span className="card-title grey-text text-darken-4">Eat-Da-Burger<i className="mdi mdi-close right"> </i></span>
                                     <p><strong>Role:</strong> Full Stack Developer</p>
                                     <p><strong>Description:</strong> Educational exercise to showcase rendering persistent data from a MySQL database to the browser. Create, read, update, and delete (CRUD) database records from the client-side.</p>
                                     <p><a target="#" href="https://github.com/dreballo/sequelizeburger">Check out the repo</a></p>
@@ -68,11 +68,11 @@ var Projects = React.createClass({
                                     <img className="activator" src="../assets/images/Stile.png"/>
                                 </div>
                                 <div className="card-content">
-                                    <span className="card-title activator grey-text text-darken-4">Stile<i className="material-icons right">more_vert</i></span>
+                                    <span className="card-title activator grey-text text-darken-4">Stile<i className="mdi mdi-dots-vertical right"> </i></span>
                                     <p><a href="http://github.com/dreballo" target="#">Coming Summer 2017</a></p>
                                 </div>
                                 <div className="card-reveal">
-                                    <span className="card-title grey-text text-darken-4">Stile<i className="material-icons right">close</i></span>
+                                    <span className="card-title grey-text text-darken-4">Stile<i className="mdi mdi-close right"> </i></span>
                                     <p><strong>Role:</strong> Full Stack Developer</p>
                                     <p><strong>Description:</strong> Find available stylists in your area and schedule appointments with ease.</p>
                                     <p><strong>Key Features: </strong>

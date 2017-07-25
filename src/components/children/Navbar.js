@@ -10,7 +10,7 @@ var Navbar = React.createClass({
                 <nav className="black" role="navigation" id="bar">
                     <div className="container">
                         <a href="#" data-activates="nav-mobile" id="button-collapse">
-                            <i className="material-icons">menu</i>
+                            <i className="mdi mdi-menu"> </i>
                         </a>
                     </div>
                 </nav>

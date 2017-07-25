@@ -14,11 +14,11 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 //serve static folder
-app.use(express.static("./public"));
+app.use(express.static("./build"));
 
 //serve app from static file
 app.get("/", function(req, res) {
-    res.sendFile(__dirname + "/public/index.html");
+    res.sendFile(__dirname + "/build/index.html");
 });
 
 app.listen(PORT, () => {
